@@ -35,4 +35,8 @@ require("lazy").setup({
 })
 
 require('colorscheme')
+require('plugins')
+require('settings')
+require('keymaps')
+require('treesitter')
 require('lualine').setup()
