@@ -30,7 +30,6 @@ require("lazy").setup({
 	build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release'
   },
   {
-	  'nvim-treesitter/nvim-treesitter',
-	  build = ':TSUpdate'
+	'nvim-treesitter/nvim-treesitter'
   }
 })

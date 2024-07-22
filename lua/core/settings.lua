@@ -4,6 +4,7 @@ vim.opt.termguicolors=true
 vim.opt.swapfile=false
 vim.opt.clipboard='unnamedplus'
 vim.opt.swapfile = false
+vim.opt.scrolloff = 10
 
 vim.g.netrw_banner = 0 --убирает верхнюю шапку в выборе файлов
 vim.g.netrw_liststyle = 3 --открывает дерево каталогов

@@ -1,3 +1,5 @@
+vim.g.mapleader=" "
+
 --в режиме поиска убираем выделение
 vim.keymap.set('n', '<esc>', ':nohlsearch<CR>', { noremap = true, silent = true })
 --в visual режиме менеям местами выделенные блок кода
