@@ -31,5 +31,8 @@ require("lazy").setup({
   },
   {
 	'nvim-treesitter/nvim-treesitter'
+  },
+  {
+	  'neovim/nvim-lspconfig'
   }
 })
