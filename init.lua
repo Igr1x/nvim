@@ -7,5 +7,6 @@ require('core.keymaps')
 --Plugins
 require('plugins.treesitter')
 require('plugins.lsp')
+require('plugins.cmp')
 
 require('lualine').setup()
